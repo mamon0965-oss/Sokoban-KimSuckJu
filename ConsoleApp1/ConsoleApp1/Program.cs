@@ -4,7 +4,13 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.ResetColor();
+
+            Console.BackgroundColor = ConsoleColor.Magenta;
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.Title = "Sokoban";
+            Console.CursorVisible = false;
+            Console.Clear();
         }
     }
 }
